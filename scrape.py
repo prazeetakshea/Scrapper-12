@@ -1,6 +1,6 @@
 import csv
 import requests
-
+import json
 from bs4 import BeautifulSoup
 
 #--url of the website to scrape--
@@ -43,7 +43,7 @@ def scrape_books(url):
 
 def save_to_json(books):
     with open("books.json", "w",encoding="utf-8") as file:
-        import json
+      
         json.dump(books,file,ensure_ascii=False,indent=4)
 
 
