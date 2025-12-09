@@ -1,3 +1,17 @@
+
+#git config  --global user.name "prajita kc"
+#git config  --global user.email "ksheaprazeeta@gmail.com"
+
+
+#git init 
+#git status => if you want to check what are teh status of the file 
+#git add .
+#git commit -m "your message"
+#create  repository  in github
+#copy paste git code from github
+
+
+
 import csv
 import requests
 import json
