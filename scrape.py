@@ -11,10 +11,18 @@
 #copy paste git code from github
 
 
+###############
+#1.change the code
+#2. git add .
+#3. gitr commit -m "your message"
+#4.git push
+###############
+
 
 import csv
 import requests
 import json
+import sqlite3
 from bs4 import BeautifulSoup
 
 #--url of the website to scrape--
@@ -93,7 +101,7 @@ def create_table():
 print("database and table are created successfully")
 
 def insert_book(title, currency, price):
-    import sqlite3
+   
     con = sqlite3.connect("books.sqlite3")
     cursor = con.cursor()
     cursor.execute(
