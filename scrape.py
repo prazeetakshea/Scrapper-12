@@ -11,6 +11,11 @@
 #copy paste git code from github
 
 
+###########3
+#1.change the code
+#2. git add .
+#3. gitr commit -m "your message"
+#4.git push
 
 import csv
 import requests
